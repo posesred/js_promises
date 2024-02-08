@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokemon Collection</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="main.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <div>
-        <h1>Pokemon Collection</h1>
-        <button id="toggleSortButton" onclick="toggleSort()">Toggle Sort</button>
+      <h1>Pokemon Collection</h1>
+      <div class="types"></div>
+      <button id="toggleSortButton">Toggle Sort</button>
     </div>
 
-    <div id="collection" class="collection-container">
-    </div>
-
-    <div id="favorites" class="favorites-container">
-    </div>
-</body>
+    <div id="collection" class="collection-container"></div>
+    <div id="favorites" class="favorites-container"></div>
+  </body>
 </html>
